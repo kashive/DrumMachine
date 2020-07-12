@@ -1,0 +1,24 @@
+{
+  "name": "Awesome Track",
+  "numberOfSteps": 2,
+  "playbackConfig": {
+    "bpm": 60,
+    "loop": false
+  },
+  "patterns": [
+    {
+      "sound": {
+        "name": "Hi Hat",
+        "pathToFile": "/sampleInput/hi-hat.wav"
+      },
+      "steps": [1]
+    },
+    {
+      "sound": {
+        "name": "Snare Drum",
+        "pathToFile": "/sampleInput/snare.wav"
+      },
+      "steps": [1,2]
+    }
+  ]
+}

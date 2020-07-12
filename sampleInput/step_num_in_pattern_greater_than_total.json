@@ -1,0 +1,31 @@
+{
+  "name": "Awesome Track",
+  "numberOfSteps": 16,
+  "playbackConfig": {
+    "bpm": 60,
+    "loop": false
+  },
+  "patterns": [
+    {
+      "sound": {
+        "name": "Hi Hat",
+        "pathToFile": "/Users/avishek/go/src/awesomeProject/sampleInput/hi-hat.wav"
+      },
+      "steps": [3,7,11,15]
+    },
+    {
+      "sound": {
+        "name": "Snare Drum",
+        "pathToFile": "/Users/avishek/go/src/awesomeProject/sampleInput/snare.wav"
+      },
+      "steps": [5,13, 18]
+    },
+    {
+      "sound": {
+        "name": "Bass Drum",
+        "pathToFile": "/Users/avishek/go/src/awesomeProject/sampleInput/kick.wav"
+      },
+      "steps": [1, 5, 9, 13]
+    }
+  ]
+}
